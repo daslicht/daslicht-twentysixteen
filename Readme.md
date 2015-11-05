@@ -18,4 +18,5 @@ Instead of polluting the root of the Theme Folder, all files are stored hierarch
 There is only *ONE* Layout instead of including ```get_header();``` and ```get_footer();``` over and over again.  
 
 `Template Tags` are solved as import as well and not with functions. 
+
 in progress...
