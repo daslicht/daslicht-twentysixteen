@@ -1,5 +1,7 @@
 # daslicht WordPress twentysixteen
 
+> A hierarchical developer frieundly WordPress theme 
+
 This is a clone of the WordPress twentysixteen theme
 
 I have modified the template theme hirachy and the used terminology to fit my needs and be more cosistent.
