@@ -21,7 +21,6 @@
  \ChromePhp::log('index.php' ); 
 //get_header(); ?>
 
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 

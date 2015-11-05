@@ -21,18 +21,29 @@ include 'debug.php';
 		\ChromePhp::log('is_page() ', is_page());
 		
 		/**
+		 * 404
+		*/
+		if ( is_404() ) {
+			get_template_part( 'template_parts/404' );
+
+		/**
 		 * Single Page
 		 */
-		if ( is_singular("page") ) {
+		} elseif ( is_singular("page") ) {
 			get_template_part( 'template_parts/post_type/page' ); 	//single page 
 
-		}elseif ( is_singular("post") ) {
+		/**
+		 * Post
+		 */
+		} elseif ( is_singular("post") ) {
 			get_template_part( 'template_parts/post_type/post' ); 	//single post 
-		
-		} elseif( is_attachment() ) {
+
+		/**
+		 * Attachment
+		 */
+		} elseif ( is_attachment() ) {
 			\ChromePhp::log('$post->post_mime_type ',$post->post_mime_type  ); 
 			get_template_part( 'template_parts/post_type/attachment' );
-		
 		
 		/**
 		 * List Multiple Pages
@@ -47,7 +58,6 @@ include 'debug.php';
 			 	\ChromePhp::log('is posts' ); 
 			 	get_template_part( 'template_parts/list_layout/post_list_layout' ); 
 			 }
-
 
 		}
 
