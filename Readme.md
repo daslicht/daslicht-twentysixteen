@@ -19,4 +19,4 @@ There is only *ONE* Layout instead of including ```get_header();``` and ```get_f
 
 `Template Tags` are solved as import as well and not with functions. 
 
-in progress ![](http://www.ajaxload.info/cache/FF/FF/FF/00/00/00/1-0.gif) 
+in progress... ![](http://www.ajaxload.info/cache/FF/FF/FF/00/00/00/1-0.gif) 
