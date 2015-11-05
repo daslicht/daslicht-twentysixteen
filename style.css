@@ -1,0 +1,46 @@
+/*
+Theme Name: daslicht Twenty Sixteen 
+Theme URI: 
+Author: the WordPress team & daslicht
+Author URI: http://github.com/daslicht
+Description: Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere.
+Version: 0.1.20151103
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, green, white, yellow, dark, light, one-column, two-columns, right-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentysixteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import url('css/Accessibility.css');
+@import url('css/Alignments.css');
+@import url('css/Clearings.css');
+@import url('css/Content-Comments.css');
+@import url('css/Content-Footer.css');
+@import url('css/Content-Header.css');
+@import url('css/Content-Post-Formats.css');
+@import url('css/Content-Posts-and-Pages.css');
+@import url('css/Content-Sidebar.css');
+@import url('css/Content.css');
+@import url('css/Forms.css');
+@import url('css/Media-Captions.css');
+@import url('css/Media-Galleries.css');
+@import url('css/Media.css');
+@import url('css/Multisite.css');
+@import url('css/Genericons.css');
+@import url('css/Navigation-Menus.css');
+@import url('css/Navigation-Links.css');
+@import url('css/Navigation.css');
+@import url('css/Normalize.css');
+@import url('css/Typography.css');
+@import url('css/Widgets.css');
+
+@import url('css/media-queries/all.css');
+@import url('css/media-queries/bigger-than-1200px.css');
+@import url('css/media-queries/bigger-than-710px.css');
+@import url('css/media-queries/bigger-than-783px.css');
+@import url('css/media-queries/bigger-than-910px.css');
+@import url('css/media-queries/bigger-than-985px.css');
+@import url('css/media-queries/print.css') print;
