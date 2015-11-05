@@ -1,6 +1,6 @@
 # daslicht WordPress twentysixteen
 
-> A hierarchical developer frieundly WordPress theme 
+> A hierarchical developer friendly WordPress theme 
 
 This is a clone of the WordPress twentysixteen theme
 
@@ -11,4 +11,4 @@ I have used *post_type* instead
 see: 
 [Codex](https://codex.wordpress.org/Post_Types)
 
-to be continued...
+in progress...
