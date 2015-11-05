@@ -11,4 +11,9 @@ I have used *post_type* instead
 see: 
 [Codex](https://codex.wordpress.org/Post_Types)
 
+## Basic Info
+Instead of polluting the root of the Theme Folder, all files are stored hierarchical in folders.
+
+There is only *ONE* Layout instead of including ```get_header();``` and ```get_footer();``` over and over again.  
+
 in progress...
